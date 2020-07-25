@@ -1,3 +1,14 @@
-# first commit
-# This is a test project
-print('Hello World')
+import re
+text = """\
+070-1234-5678
+080-1234-5678
+090-1234-5678
+081-1234-8787
+"""
+a = re.sub(
+           "^[0-9]{3}-[0-9]{4}-[0-9]{4}",
+           "***-****-***",
+           text,
+           flags=re.MULTILINE
+           )
+print(a)
