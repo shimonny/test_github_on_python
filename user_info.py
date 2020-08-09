@@ -16,3 +16,4 @@ class Cat(Dog):
 
 cat = Cat("John")
 cat.hello()
+print("aaaaa")
