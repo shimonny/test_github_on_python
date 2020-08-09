@@ -22,5 +22,6 @@ def hello():
     return print("hello")
 
 
+print("^-^")
 print('---------')
 hello()
