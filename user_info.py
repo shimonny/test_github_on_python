@@ -1,6 +1,3 @@
-import numpy as np
-
-a = np.array([1, 2, 3, 4])
-b = a.reshape(2, 2)
-print(b)
+print('this file is user_info.py')
+print('I was given extra fee')
 # [3 4]]
